@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
+    //Toolbar toolbar;
     ProgressBar progressBar;
     EditText email;
     EditText password;
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = findViewById(R.id.toolbar);
+        //toolbar = findViewById(R.id.toolbar);
         progressBar = findViewById(R.id.progressBar);
         email = findViewById(R.id.etEmail);
         password = findViewById(R.id.etPassword);
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         roomaviable = findViewById(R.id.btnRoomAviable);
 
 
-        toolbar.setTitle(R.string.app_name);
+        //toolbar.setTitle(R.string.app_name);
 
         firebaseAuth = FirebaseAuth.getInstance();
 

@@ -37,7 +37,7 @@ public class MakeRersevationActivity extends AppCompatActivity {
 
     private Button fTimeButton;
     private Button tTimeButton;
-    Toolbar toolbar;
+    //Toolbar toolbar;
 
     FirebaseAuth firebaseAuth;
     FirebaseUser firebaseUser;
@@ -48,7 +48,7 @@ public class MakeRersevationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_make_rersevation);
         fTimeButton = findViewById(R.id.fromTimeButton);
         tTimeButton = findViewById(R.id.toTimeButton);
-        toolbar = findViewById(R.id.toolbar);
+        //toolbar = findViewById(R.id.toolbar);
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
 
@@ -57,7 +57,7 @@ public class MakeRersevationActivity extends AppCompatActivity {
 
 
 
-        toolbar.setTitle("Make Reservation");
+        //toolbar.setTitle("Make Reservation");
 
     }
 

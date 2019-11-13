@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
+    //Toolbar toolbar;
     ProgressBar progressBar;
     EditText userEmail;
     EditText userPass;
@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        toolbar = findViewById(R.id.toolbar);
+        //toolbar = findViewById(R.id.toolbar);
         progressBar = findViewById(R.id.progressBar);
         userEmail = findViewById(R.id.etUserEmail);
         userPass = findViewById(R.id.etUserPassword);

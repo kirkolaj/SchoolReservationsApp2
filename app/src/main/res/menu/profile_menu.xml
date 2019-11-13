@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ProfileActivity">
+
+
+    <item
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always|withText"
+        android:title="Go back"/>
+
+    <item
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:title="SignOut">
+    </item>
+</menu>
